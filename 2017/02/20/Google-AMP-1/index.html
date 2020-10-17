@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><title> Google AMP - 1 · geniustanley</title><meta name="description" content="Google AMP - 1 - geniustanley 于子軒"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#FB4D42"><meta name="google-site-verification" content="rk-Nc1c8xi1CdZ0ZQIVV-ifsndGrHanIuSHI-yTHZYE"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="/css/zoom.css"><meta property="og:title" content="Google AMP - 1"><meta property="og:image" content="https://i.imgur.com/StB17bs.png"><meta property="og:description" content="忘了今天在哪個社團看到有人問 AMP，有點興趣就去查了一下"><meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="geniustanley" type="application/atom+xml">
+</head><body><div class="wrap"><div class="header"><a class="logo-link" href="/"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a class="nav-list-link" href="/" target="_self">BLOG</a></li><li class="nav-list-item"><a class="nav-list-link" href="/archives/" target="_self">ARCHIVE</a></li><li class="nav-list-item"><a class="nav-list-link" href="https://github.com/geniustanley" target="_blank">GITHUB</a></li><li class="nav-list-item"><a class="nav-list-link" href="/atom.xml" target="_self">RSS</a></li></ul></div></div><section class="container"><div class="post"><article class="post-block"><div class="wrap"><h1 class="post-title">Google AMP - 1</h1><h2 class="post-subtitle"></h2><header class="post-info">Feb 20, 2017<div class="fb-ir-time"><time class="op-modified" dateTime="2017-02-19T17:25:53.000Z"></time><time class="op-published" dateTime="2017-02-19T17:25:53.000Z"></time></div><div class="tags"><a class="tag-link" href="/tags/Google AMP">#Google AMP</a></div></header></div><div class="post-banner"><img src="https://i.imgur.com/StB17bs.png"></div><div class="wrap"><div class="post-content"><p>忘了今天在哪個社團看到有人問 AMP，有點興趣就去查了一下</p>
+<a id="more"></a>
+
+
+<h2 id="AMP-全名"><a href="#AMP-全名" class="headerlink" title="AMP 全名"></a>AMP 全名</h2><blockquote>
+<p>Accelerated Mobile Pages</p>
+</blockquote>
+<p>假如有 AMP 的話用手機搜尋時 Google 搜尋出來的結果會潮潮的有一個閃電，據說頁面載入速度會快四倍</p>
+<p><img src="https://i.imgur.com/Y7JSzpU.png" alt="Imgur"></p>
+<h2 id="怎麼知道我的網站有沒有-AMP"><a href="#怎麼知道我的網站有沒有-AMP" class="headerlink" title="怎麼知道我的網站有沒有 AMP"></a>怎麼知道我的網站有沒有 AMP</h2><p>基本上你不做就是沒有</p>
+<p>不知道以後 ( 今天是 2017/02/20 ) 的各家 framework 會不會直接支援，不過 <code>WordPress</code> 很方便的裝個 <code>plugin</code> 就可以有 AMP 了</p>
+<p>如果想要測試可以在 Google 官方的 <a target="_blank" rel="noopener" href="https://search.google.com/search-console/amp">AMP 測試</a> 測試網站的 AMP 程度</p>
+<p>我得到了一堆慘不忍睹的紅色</p>
+<p><img src="https://i.imgur.com/t6Fqtof.png" alt="Imgur"></p>
+<p>是說我的 <code>github.io</code> 的載入速度已經讓我很滿意了</p>
+<p><a target="_blank" rel="noopener" href="https://testmysite.thinkwithgoogle.com/">Mobile Website Speed Testing Tool - Google</a> 又是完美的 <code>100%</code>，所以我一開始也沒有很想要用 AMP</p>
+<p><img src="https://i.imgur.com/hx2AVW7.png" alt="Imgur"></p>
+<p>我想說先問問看 <a target="_blank" rel="noopener" href="https://github.com/geniusgordon">@geniusgordon</a> 有沒有用過，他說他只有聽過</p>
+<p>後來我在想應該會對之後的 project 有幫助，還是了解一下 AMP 好了，姑且試試看先把 <code>github.io</code> 改造看看</p>
+<p>於是我先跑去看了 <a target="_blank" rel="noopener" href="https://www.ampproject.org/">AMP</a> </p>
+<p>我得到一個簡單的結論</p>
+<h2 id="要有-AMP-就要特別產生一個手機板的網站並且所有-html-tag-都用-amp-規定的的-tag"><a href="#要有-AMP-就要特別產生一個手機板的網站並且所有-html-tag-都用-amp-規定的的-tag" class="headerlink" title="要有 AMP, 就要特別產生一個手機板的網站並且所有 html tag 都用 amp 規定的的 tag"></a>要有 AMP, 就要特別產生一個手機板的網站並且所有 html tag 都用 amp 規定的的 tag</h2><p>Google 會特別幫你把你做好的 AMP cache 到 cdn，所以會很快，而其中的限制包括 <code>js</code> 會需要非同步，<code>css</code> 會需要固定長寬</p>
+<p>但是似乎沒有他宣稱的那麼好改阿，要引入一堆他的 <code>.js</code> 他才會幫我 generate amp file</p>
+<p>於是我想說算了來看看 <code>hexo</code> 有沒有現成的</p>
+<p>找到了一個日本猛人寫的 <a target="_blank" rel="noopener" href="https://github.com/tea3/hexo-generator-amp">hexo-generator-amp</a></p>
+<p>不過他的 template 不是我要的，於是 …</p>
+<h2 id="我大概只能自己寫了"><a href="#我大概只能自己寫了" class="headerlink" title="我大概只能自己寫了"></a>我大概只能自己寫了</h2><p>待續 …</p>
+<p>沒想到睡覺睡到一半還是跳起來弄好了，<a href="https://geniustanley.github.io/2017/02/20/Google-AMP-2/">Google AMP - 2</a></p>
+</div></div></article></div></section><div class="wrap"><footer><div class="paginator"><a class="prev" href="/2017/02/20/Google-AMP-2/">NEXT</a><a class="next" href="/2017/02/19/UVa-11553-Grid-Game/">PREV</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'geniustanley';
+var disqus_identifier = '2017/02/20/Google-AMP-1/';
+var disqus_title = 'Google AMP - 1';
+var disqus_url = 'https://geniustanley.github.io/2017/02/20/Google-AMP-1/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//#{theme.disqus}.disqus.com/count.js" async></script><div class="copyright"><p>© 2017 - 2020 <a href="https://geniustanley.github.io">geniustanley 于子軒</a>, unless otherwise noted.</p></div></footer></div><script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-91330174-1",'auto');ga('send','pageview');</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script><script src="/js/zoom.js"></script></body></html>

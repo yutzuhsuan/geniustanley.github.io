@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><title> Migrate Hexo comment from disqus to gitment · geniustanley</title><meta name="description" content="Migrate Hexo comment from disqus to gitment - geniustanley 于子軒"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#FB4D42"><meta name="google-site-verification" content="rk-Nc1c8xi1CdZ0ZQIVV-ifsndGrHanIuSHI-yTHZYE"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="/css/zoom.css"><meta property="og:title" content="Migrate Hexo comment from disqus to gitment"><meta property="og:image" content="https://i.imgur.com/msfvYHJ.png"><meta property="og:description" content="與 Disqus 類似的 多說 即將要關閉了，許多人換到以 Github Issue 為 base 的 gitment"><meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="geniustanley" type="application/atom+xml">
+</head><body><div class="wrap"><div class="header"><a class="logo-link" href="/"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a class="nav-list-link" href="/" target="_self">BLOG</a></li><li class="nav-list-item"><a class="nav-list-link" href="/archives/" target="_self">ARCHIVE</a></li><li class="nav-list-item"><a class="nav-list-link" href="https://github.com/geniustanley" target="_blank">GITHUB</a></li><li class="nav-list-item"><a class="nav-list-link" href="/atom.xml" target="_self">RSS</a></li></ul></div></div><section class="container"><div class="post"><article class="post-block"><div class="wrap"><h1 class="post-title">Migrate Hexo comment from disqus to gitment</h1><h2 class="post-subtitle"></h2><header class="post-info">May 23, 2017<div class="fb-ir-time"><time class="op-modified" dateTime="2017-05-23T13:35:01.000Z"></time><time class="op-published" dateTime="2017-05-23T13:35:01.000Z"></time></div><div class="tags"></div></header></div><div class="post-banner"><img src="https://i.imgur.com/msfvYHJ.png"></div><div class="wrap"><div class="post-content"><p>與 <a target="_blank" rel="noopener" href="https://disqus.com/">Disqus</a> 類似的 <a target="_blank" rel="noopener" href="http://www.weibo.com/duoshuo">多說</a> 即將要關閉了，許多人換到以 Github Issue 為 base 的 gitment</p>
+<a id="more"></a>
+
+<p>話說 <code>Github</code> 章魚好可愛喔 &gt;////&lt;</p>
+<p>其實多說要關閉跟我換 gitment 沒關係，純粹是我比較喜歡 gitment</p>
+<h1 id="Gitment"><a href="#Gitment" class="headerlink" title="Gitment"></a><a target="_blank" rel="noopener" href="https://github.com/imsun/gitment">Gitment</a></h1><p><img src="https://i.imgur.com/eihTuzi.png" alt="Imgur"></p>
+<h2 id="優點"><a href="#優點" class="headerlink" title="優點"></a>優點</h2><ul>
+<li>用 Github Login ( 相信來看這邊逛逛的人有 Github 帳號應該多於 Disqus 帳號 )</li>
+<li>支援 markdown ( 可以貼 code )</li>
+<li>用 Github Issue 來管理 comment ( 我比較常上 github 以及我對 github 的愛 )</li>
+<li>可以自行修改 css ( 滿喜歡 default 的設定所以我目前沒動 )</li>
+<li>放一些 code 在前端就可以，不用改 server</li>
+</ul>
+<p><img src="https://i.imgur.com/ZWE0fBH.png" alt="Imgur"></p>
+<h2 id="缺點"><a href="#缺點" class="headerlink" title="缺點"></a>缺點</h2><ul>
+<li>訪客要留言要用 Github Login 然後 Authorize ( 那個 Authorize 頁面滿可怕的其實，有種當年 Facebook Authorize 在各個網站滿天飛的陰影 = = ，不過不要害怕，用力給他按下去 )</li>
+<li>每發一篇文作者都需要去 initial 一下，之後訪客才能留言，因為要在 Github repo 裡面創造一個 Issue</li>
+</ul>
+<p><img src="https://i.imgur.com/yAs8SpA.png" alt="Imgur"></p>
+<h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h2><p>基本的安裝看 <a target="_blank" rel="noopener" href="https://github.com/imsun/gitment">Gitment</a> 的 github 就可以了，包括申請 Github OAuth，這邊主要小提一下 Hexo 部份的修改</p>
+<h2 id="開始動手改ㄅ"><a href="#開始動手改ㄅ" class="headerlink" title="開始動手改ㄅ"></a>開始動手改ㄅ</h2><p>我用的 hexo theme 是用 <a target="_blank" rel="noopener" href="https://pugjs.org/api/getting-started.html">pug (jade)</a> 寫的，不會跟 html 差很多啦</p>
+<p>找到 head 的部份，新增 css</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">link(rel&#x3D;&quot;stylesheet&quot;, href&#x3D;url_for(&quot;https:&#x2F;&#x2F;imsun.github.io&#x2F;gitment&#x2F;style&#x2F;default.css&quot;))</span><br></pre></td></tr></table></figure>
+
+<p>在 <code>_config.yml</code> 中新增剛剛申請好的資料</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># Comment</span><br><span class="line"># e.g disqus: seansun</span><br><span class="line">disqus:</span><br><span class="line">duoshuo:</span><br><span class="line">gitment:</span><br><span class="line">  owner: 你的 Github 帳號</span><br><span class="line">  repo: 新建立準備放 comment 的 repo</span><br><span class="line">  client_id: 剛剛申請的 client_id</span><br><span class="line">  client_secret: 剛剛申請的 client_secret</span><br></pre></td></tr></table></figure>
+
+
+
+<p>在 comment 部份 ( 你可以 grep 一下 Disqus 放哪邊，就放他下面 ) 加上 gitment 需要的 js</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">if theme.gitment</span><br><span class="line">     #gitmentContainer</span><br><span class="line">     link(rel&#x3D;&#39;stylesheet&#39;, href&#x3D;&#39;https:&#x2F;&#x2F;imsun.github.io&#x2F;gitment&#x2F;style&#x2F;default.css&#39;)</span><br><span class="line">     script(src&#x3D;&#39;https:&#x2F;&#x2F;imsun.github.io&#x2F;gitment&#x2F;dist&#x2F;gitment.browser.js&#39;)</span><br><span class="line">     script.</span><br><span class="line">       var gitment &#x3D; new Gitment(&#123;</span><br><span class="line">         owner: &#39;#&#123;theme.gitment.owner&#125;&#39;,</span><br><span class="line">         repo: &#39;#&#123;theme.gitment.repo&#125;&#39;,</span><br><span class="line">         oauth: &#123;</span><br><span class="line">           client_id: &#39;#&#123;theme.gitment.client_id&#125;&#39;,</span><br><span class="line">           client_secret: &#39;#&#123;theme.gitment.client_secret&#125;&#39;,</span><br><span class="line">         &#125;,</span><br><span class="line">       &#125;)</span><br><span class="line">       gitment.render(&#39;gitmentContainer&#39;)</span><br></pre></td></tr></table></figure>
+
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>完成後記得</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean;</span><br><span class="line">hexo g;</span><br></pre></td></tr></table></figure>
+
+<h2 id="警告"><a href="#警告" class="headerlink" title="警告"></a>警告</h2><p>每發一篇文都要 Initial 一次，不要不小心重複 Initial，雖然不會壞掉但是會產生兩篇 Issue 有點醜，而且 Github 的 Issue 是不能刪除的，只能 Close</p>
+<p><img src="https://i.imgur.com/eihTuzi.png" alt="Imgur"></p>
+<h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><p>雖然 gitment 頗帥，但 <a target="_blank" rel="noopener" href="https://disqus.com/">DISQUS</a> 樸素簡單還是我的愛 &lt;3 ( 2018.01.21 )</p>
+</div></div></article></div></section><div class="wrap"><footer><div class="paginator"><a class="prev" href="/2017/06/02/%E7%9C%9F%E4%BA%BA%E4%B8%8D%E9%9C%B2%E7%9B%B8%EF%BC%8C%E9%9C%B2%E7%9B%B8%E4%B8%8D%E7%9C%9F%E4%BA%BA/">NEXT</a><a class="next" href="/2017/04/14/%E8%80%83%E8%A9%A6%E5%85%AC%E5%B9%B3%E5%97%8E/">PREV</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'geniustanley';
+var disqus_identifier = '2017/05/23/Migrate-Hexo-comment-from-disqus-to-gitment/';
+var disqus_title = 'Migrate Hexo comment from disqus to gitment';
+var disqus_url = 'https://geniustanley.github.io/2017/05/23/Migrate-Hexo-comment-from-disqus-to-gitment/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//#{theme.disqus}.disqus.com/count.js" async></script><div class="copyright"><p>© 2017 - 2020 <a href="https://geniustanley.github.io">geniustanley 于子軒</a>, unless otherwise noted.</p></div></footer></div><script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-91330174-1",'auto');ga('send','pageview');</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script><script src="/js/zoom.js"></script></body></html>
