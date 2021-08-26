@@ -1,0 +1,15 @@
+<script>
+(function(w, d){
+ var id='pdst-capture', n = 'script';
+ if (!d.getElementById(id)){
+   w.pdst = w.pdst || function() {(w.pdst.q = w.pdst.q || []).push(arguments);};
+   var e = d.createElement(n); e.id = id; e.async=1;
+   e.src = 'https://cdn.pdst.fm/ping.min.js';
+   var s = d.getElementsByTagName(n)[0];
+   s.parentNode.insertBefore(e, s);
+ }
+ w.pdst('conf', { key: '36fdeaab8e2c4250b758539fbee8eb84' })
+ w.pdst('view')
+})(window, document);
+</script>
+
