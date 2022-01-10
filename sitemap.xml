@@ -2,42 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://geniustanley.github.io/2020/12/28/2020/</loc>
-    
-    <lastmod>2021-06-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2020/10/18/%E8%AA%8D%E7%9F%A5/</loc>
-    
-    <lastmod>2020-10-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/03/20/javascript-%E9%81%8E%E6%BF%BE%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/03/21/vimrc-%E8%A8%BB%E8%A7%A3%E6%96%9C%E9%AB%94/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/03/05/%E5%A4%B1%E6%95%97/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/06/02/%E7%9C%9F%E4%BA%BA%E4%B8%8D%E9%9C%B2%E7%9B%B8%EF%BC%8C%E9%9C%B2%E7%9B%B8%E4%B8%8D%E7%9C%9F%E4%BA%BA/</loc>
+    <loc>https://geniustanley.github.io/2017/04/07/%E9%96%89%E5%98%B4%E7%9A%84%E8%97%9D%E8%A1%93/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -51,28 +16,28 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/04/07/%E9%96%89%E5%98%B4%E7%9A%84%E8%97%9D%E8%A1%93/</loc>
+    <loc>https://geniustanley.github.io/2017/03/05/%E5%A4%B1%E6%95%97/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/12/08/UVa-686-Goldbach-s-Conjecture-II/</loc>
+    <loc>https://geniustanley.github.io/2017/03/21/vimrc-%E8%A8%BB%E8%A7%A3%E6%96%9C%E9%AB%94/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/09/UVa-624-CD/</loc>
+    <loc>https://geniustanley.github.io/2017/03/20/javascript-%E9%81%8E%E6%BF%BE%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/08/UVa-735-Dart-a-Mania/</loc>
+    <loc>https://geniustanley.github.io/2017/06/02/%E7%9C%9F%E4%BA%BA%E4%B8%8D%E9%9C%B2%E7%9B%B8%EF%BC%8C%E9%9C%B2%E7%9B%B8%E4%B8%8D%E7%9C%9F%E4%BA%BA/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -86,56 +51,28 @@
   </url>
   
   <url>
+    <loc>https://geniustanley.github.io/2017/02/08/UVa-735-Dart-a-Mania/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/09/UVa-624-CD/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/12/08/UVa-686-Goldbach-s-Conjecture-II/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://geniustanley.github.io/2017/03/23/cPanel-%E4%B8%8A-addons-domain-%E5%AD%98%E5%9C%A8-public-html-%E5%A4%96%E9%9D%A2/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/03/05/UVa-300-Maya-Calendar/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/26/UVa-416-LED-Test/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/12/14/UVa-231-Testing-the-CATCHER/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/12/24/UVa-437-The-Tower-of-Babylon/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/03/18/UVa-481-What-Goes-Up/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/12/25/UVa-507-Jill-Rides-Again/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/22/UVa-574-Sum-It-Up/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -149,49 +86,49 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/12/UVa-12003-Array-Transformer/</loc>
+    <loc>https://geniustanley.github.io/2017/02/22/UVa-574-Sum-It-Up/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/27/UVa-12032-The-Monkey-and-the-Oiled-Bamboo/</loc>
+    <loc>https://geniustanley.github.io/2017/12/25/UVa-507-Jill-Rides-Again/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/25/UVa-12192-Grapevine/</loc>
+    <loc>https://geniustanley.github.io/2017/03/18/UVa-481-What-Goes-Up/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/06/UVa-1237-Expert-Enough/</loc>
+    <loc>https://geniustanley.github.io/2017/12/24/UVa-437-The-Tower-of-Babylon/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/21/UVa-12455-Bars/</loc>
+    <loc>https://geniustanley.github.io/2017/12/14/UVa-231-Testing-the-CATCHER/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/03/04/UVa-170-Clock-Patience/</loc>
+    <loc>https://geniustanley.github.io/2017/02/26/UVa-416-LED-Test/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/26/UVa-1262-Password/</loc>
+    <loc>https://geniustanley.github.io/2017/03/05/UVa-300-Maya-Calendar/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -205,7 +142,49 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/27/UVa-11413-Fill-the-Containers/</loc>
+    <loc>https://geniustanley.github.io/2017/02/26/UVa-1262-Password/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/03/04/UVa-170-Clock-Patience/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/21/UVa-12455-Bars/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/06/UVa-1237-Expert-Enough/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/25/UVa-12192-Grapevine/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/27/UVa-12032-The-Monkey-and-the-Oiled-Bamboo/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/12/UVa-12003-Array-Transformer/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -219,28 +198,7 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/03/22/UVa-11456-Trainsorting/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/12/11/UVa-11517-Exact-Change/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/19/UVa-11553-Grid-Game/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/16/UVa-11565-Simple-Equations/</loc>
+    <loc>https://geniustanley.github.io/2017/03/21/UVa-11951-Area/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -254,42 +212,35 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/03/21/UVa-11951-Area/</loc>
+    <loc>https://geniustanley.github.io/2017/02/16/UVa-11565-Simple-Equations/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/11/UVa-11057-Exact-Sum/</loc>
+    <loc>https://geniustanley.github.io/2017/02/19/UVa-11553-Grid-Game/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/27/UVa-11078-Open-Credit-System/</loc>
+    <loc>https://geniustanley.github.io/2017/12/11/UVa-11517-Exact-Change/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/15/UVa-11236-Grocery-store/</loc>
+    <loc>https://geniustanley.github.io/2017/02/27/UVa-11413-Fill-the-Containers/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/06/UVa-11242-Tour-de-France/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/21/UVa-11085-Back-to-the-8-Queens/</loc>
+    <loc>https://geniustanley.github.io/2017/03/22/UVa-11456-Trainsorting/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -303,35 +254,42 @@
   </url>
   
   <url>
+    <loc>https://geniustanley.github.io/2017/02/06/UVa-11242-Tour-de-France/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/15/UVa-11236-Grocery-store/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/27/UVa-11078-Open-Credit-System/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/21/UVa-11085-Back-to-the-8-Queens/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/11/UVa-11057-Exact-Sum/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://geniustanley.github.io/2017/02/11/UVa-10660-Citizen-attention-offices/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/03/28/UVa-10616-Divisible-Group-Sums/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/12/12/UVa-10819-Trouble-of-13-Dots/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/27/UVa-11001-Necklace/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/03/06/UVa-10827-Maximum-sum-on-a-torus/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -345,28 +303,35 @@
   </url>
   
   <url>
+    <loc>https://geniustanley.github.io/2017/02/27/UVa-11001-Necklace/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/12/12/UVa-10819-Trouble-of-13-Dots/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/03/28/UVa-10616-Divisible-Group-Sums/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/03/06/UVa-10827-Maximum-sum-on-a-torus/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://geniustanley.github.io/2017/02/19/UVa-1047-Zones/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/12/08/UVa-10474-Where-is-the-Marble/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/22/UVa-10503-The-dominoes-solitaire/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/21/UVa-10576-Y2K-Accounting-Bug/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -380,14 +345,28 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/05/23/Migrate-Hexo-comment-from-disqus-to-gitment/</loc>
+    <loc>https://geniustanley.github.io/2017/02/21/UVa-10576-Y2K-Accounting-Bug/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/03/12/Migrate-from-HTTP-to-HTTPS/</loc>
+    <loc>https://geniustanley.github.io/2017/02/22/UVa-10503-The-dominoes-solitaire/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/12/08/UVa-10474-Where-is-the-Marble/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/03/06/UVa-10070-Leap-Year-or-Not-Leap-Year-and/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -401,7 +380,14 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/03/06/UVa-10070-Leap-Year-or-Not-Leap-Year-and/</loc>
+    <loc>https://geniustanley.github.io/2017/03/12/Migrate-from-HTTP-to-HTTPS/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/05/23/Migrate-Hexo-comment-from-disqus-to-gitment/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -422,28 +408,7 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/20/Blog-%E5%9C%A8-Facebook-%E7%80%8F%E8%A6%BD%E5%99%A8%E7%A0%B4%E5%9C%96%E4%BF%AE%E5%BE%A9/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/03/15/Fetch-%E5%9C%A8-no-cors-mode-%E7%84%A1%E6%B3%95%E8%A8%AD%E5%AE%9A-Content-Type-application-json/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/04/01/Functional-programming-%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81-immutable%EF%BC%9F/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/08/Gnome-%E6%BF%BE%E8%97%8D%E5%85%89%E5%A5%BD%E7%89%A9-Redshift/</loc>
+    <loc>https://geniustanley.github.io/2017/02/20/Google-AMP-2/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -457,21 +422,28 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2019/04/13/How-to-Get-and-Test-Startup-Ideas-Michael-Seibel/</loc>
+    <loc>https://geniustanley.github.io/2017/02/08/Gnome-%E6%BF%BE%E8%97%8D%E5%85%89%E5%A5%BD%E7%89%A9-Redshift/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/20/Google-AMP-2/</loc>
+    <loc>https://geniustanley.github.io/2017/04/01/Functional-programming-%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81-immutable%EF%BC%9F/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/07/03/ASC17-%E5%8F%83%E8%B3%BD%E5%BF%83%E5%BE%97-LAMMPS/</loc>
+    <loc>https://geniustanley.github.io/2017/03/15/Fetch-%E5%9C%A8-no-cors-mode-%E7%84%A1%E6%B3%95%E8%A8%AD%E5%AE%9A-Content-Type-application-json/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/20/Blog-%E5%9C%A8-Facebook-%E7%80%8F%E8%A6%BD%E5%99%A8%E7%A0%B4%E5%9C%96%E4%BF%AE%E5%BE%A9/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -485,7 +457,7 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/13/Arch-Linux-%E9%80%A3%E7%B7%9A%E6%B8%85%E5%A4%A7-vpn/</loc>
+    <loc>https://geniustanley.github.io/2017/02/12/Arch-%E8%88%87-Windows-%E6%99%82%E9%96%93%E4%BA%92%E6%94%B9/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -499,7 +471,14 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/12/Arch-%E8%88%87-Windows-%E6%99%82%E9%96%93%E4%BA%92%E6%94%B9/</loc>
+    <loc>https://geniustanley.github.io/2017/02/13/Arch-Linux-%E9%80%A3%E7%B7%9A%E6%B8%85%E5%A4%A7-vpn/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/07/03/ASC17-%E5%8F%83%E8%B3%BD%E5%BF%83%E5%BE%97-LAMMPS/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -508,7 +487,7 @@
 
   <url>
     <loc>https://geniustanley.github.io/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -516,63 +495,63 @@
   
   <url>
     <loc>https://geniustanley.github.io/tags/linux/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://geniustanley.github.io/tags/%E7%94%9F%E6%97%A5/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://geniustanley.github.io/tags/Facebook/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://geniustanley.github.io/tags/web/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://geniustanley.github.io/tags/tools/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://geniustanley.github.io/tags/Google-AMP/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://geniustanley.github.io/tags/UVa/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://geniustanley.github.io/tags/0-1Knapsack/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://geniustanley.github.io/tags/%E5%A1%8A%E7%8B%80%E9%8D%8A%E8%A1%A8/</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -6,7 +6,7 @@
   <link href="https://geniustanley.github.io/atom.xml" rel="self"/>
   
   <link href="https://geniustanley.github.io/"/>
-  <updated>2021-06-12T13:52:27.602Z</updated>
+  <updated>2020-10-13T06:48:10.697Z</updated>
   <id>https://geniustanley.github.io/</id>
   
   <author>
@@ -15,59 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>2020</title>
-    <link href="https://geniustanley.github.io/2020/12/28/2020/"/>
-    <id>https://geniustanley.github.io/2020/12/28/2020/</id>
-    <published>2020-12-27T18:55:40.000Z</published>
-    <updated>2021-06-12T13:52:27.602Z</updated>
-    
-    <content type="html"><![CDATA[<p>恍如隔世的一年，我還活著。雜記這一年的某些時刻。</p><a id="more"></a><h1 id="廢物"><a href="#廢物" class="headerlink" title="廢物"></a>廢物</h1><p>最近在公司與夥伴們有個口頭禪就是『我真是個廢物呢』，一開始的開始可能是打打嘴砲，最近感觸越來越深，只有不斷地把自己的現狀錨定在 0 分，才有追求卓越的可能性，我們似乎很享受當個快樂的低能兒，我覺得這狀態挺好，stay hungry stay foolish。</p><h1 id="接案"><a href="#接案" class="headerlink" title="接案"></a>接案</h1><p>2020 1月停了一直以來的接案，說得好聽是我拒絕繼續做，說難聽點就是與老闆發生衝突被fire，不過我的確是抱持著做自己的態度在做那份工作，我知道錢很重要，但是能因為自己的原則被 fire 何嘗不是件浪漫的事情？人生總是有出路的</p><p>想當初這個案子想用 PostgreSQL，而非該單位一慣使用的 MS SQL Server，我被叫入一個都是頂尖大咖的會議室中，要我解釋為什麼要用 PostgreSQL</p><p>看見了我繳的稅如何被浪費，起初很生氣，換位思考後，我可以理解在對方的視角中那些質疑的合理性，然而我卻不禁感到難過，要好好做事的難度太高了</p><p>前幾週無聊在網路上看見了那個系統離開我手上一年後，現在的 demo 影片仍然使用我的 email 登入，年初的我肯定會生氣，覺得怎麼如此可悲，然而一年過後的現在我反而笑著覺得一切都跟假設的一樣真是太好了，我做了正確的決定，那就是離開</p><p>無獨有偶，與曾經在美國念博士的前輩討論到，他也說即使在美國，實驗室中的確會需要很多外部計畫的金援支撐，可悲的是能執行計畫的執行者太少，多數就是沒用的人</p><p>再度驗證了我認為大多數的學術單位都很荒謬的論點，要理論就專心做，不要去申請一堆自己碰不了也執行不了的錢</p><h1 id="遺憾"><a href="#遺憾" class="headerlink" title="遺憾"></a>遺憾</h1><p>我總在深夜下班時問我的合夥人『你們認為人的關係值得去修補嗎？』，答案總是否定的</p><p>檢視自己在關係中的劣根性就是要對方『認錯』，『你必須承認你錯了』這件事對我很重要，雖然這樣說很怪，我認為我是個樂意認錯的人，人因為認錯而強大，但是把這個期待放到多數人頭上肯定是不會成功的呢</p><h1 id="變強"><a href="#變強" class="headerlink" title="變強"></a>變強</h1><p>變強最重要的過程我至今仍然認為是 mentor.</p><h1 id="快樂"><a href="#快樂" class="headerlink" title="快樂"></a>快樂</h1><h1 id="家庭"><a href="#家庭" class="headerlink" title="家庭"></a>家庭</h1><h1 id="關係"><a href="#關係" class="headerlink" title="關係"></a>關係</h1><h1 id="感情"><a href="#感情" class="headerlink" title="感情"></a>感情</h1>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;恍如隔世的一年，我還活著。雜記這一年的某些時刻。&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>認知</title>
-    <link href="https://geniustanley.github.io/2020/10/18/%E8%AA%8D%E7%9F%A5/"/>
-    <id>https://geniustanley.github.io/2020/10/18/%E8%AA%8D%E7%9F%A5/</id>
-    <published>2020-10-17T16:33:27.000Z</published>
-    <updated>2020-10-17T18:16:22.897Z</updated>
-    
-    <content type="html"><![CDATA[<p>如何在自以為看透一切與真實了解後還能動手解決問題</p><a id="more"></a><p>我的個性是在看見一個乍看之下運作糟糕的系統的時候，會自以為看透一切，然而時常錯得離譜</p><p>『醫院這麼沒效率就xxx就好了啊』<br>『某某公司應該只要把 UI 做的更好用，這邊加一點東西就可以了吧』<br>『做內容是重資本，不要做』</p><p>不知道是不是工作角色的緣故，我總是嘗試去拆解現有系統沒效率的地方或者給予自以為是的批評指教</p><p>然而許多事情實際接觸之後才恍然大悟『啊原來這件事會需要五個步驟的原因是這樣啊』</p><p>所以我時常到後來都在檢討自己的認知錯誤與現實間的落差，我最近在想自己是不是該放棄質疑世界的運作規則。</p><p>還記得 Jeff Bezos 有一句經典名言 『day 1 quote』 用來勉勵全公司無論有多巨大都要保持初心『Staying in Day 1 requires you to experiment patiently, accept failures, plant seeds, protect saplings, and double down when you see customer delight.』</p><p>嘗試去思考以下兩者哪個才是該持續保持的態度</p><ol><li><p>去理解世界沒效率的點，再被狠狠教訓為什麼這些沒效率其實是 best practice，最後與世界妥協，幾乎相信所有的 best practice</p></li><li><p>保持 day 1 思維對任何事情產生懷疑並拒絕被過去的經驗綁架</p></li></ol><p>現在的我還是會理想性的選擇2</p><p>會寫下這篇文章是因為持續有許多事情當我逐漸理解全貌才發現自己一開始想的都太單純了，幼稚的可以，一度想放棄質疑這個世界乖乖接受一切。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Day 1 requires you to </span><br><span class="line"></span><br><span class="line">Experiment patiently</span><br><span class="line"></span><br><span class="line">Accept failures</span><br><span class="line"></span><br><span class="line">Plant seeds</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;如何在自以為看透一切與真實了解後還能動手解決問題&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>How to Get and Test Startup Ideas - Michael Seibel</title>
-    <link href="https://geniustanley.github.io/2019/04/13/How-to-Get-and-Test-Startup-Ideas-Michael-Seibel/"/>
-    <id>https://geniustanley.github.io/2019/04/13/How-to-Get-and-Test-Startup-Ideas-Michael-Seibel/</id>
-    <published>2019-04-12T17:12:51.000Z</published>
-    <updated>2020-10-13T06:48:10.690Z</updated>
-    
-    <content type="html"><![CDATA[<p>Y Combinatore 的 CEO Michael Seibel</p><p>我覺得他講得很有條理，雖然我們也沒照著這個路走xD</p><p>記一下不然會忘記</p><a id="more"></a><iframe width="560" height="315" src="https://www.youtube.com/embed/vDXkpJw16os" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>首先我要來粉碎創業一定要有一個舉世無敵棒的點子這件事</p><p>痾 其實我是一間叫 Justin.tv 這間公司的 co-founder，後來改名叫 Twitch，並且被 Amazon 以十億美金收購</p><p>事實上，我們一開始想做的是線上實境電視秀，事實上這很難想像到會變成一個人家開實況台的地方，但確實，真的變成這樣了</p><p>所以，別掉進一開始就要有一個從任何意義上來說的好點子的這個陷阱</p><p>我認為事實上應該換個方式思考</p><h1 id="從一個問題開始"><a href="#從一個問題開始" class="headerlink" title="從一個問題開始"></a>從一個問題開始</h1><p>由於從一個點子開始，很容易引來的是質疑，但是從問題開始，人們更好奇的會是解答</p><h1 id="我跟這個問題有關系嗎？"><a href="#我跟這個問題有關系嗎？" class="headerlink" title="我跟這個問題有關系嗎？"></a>我跟這個問題有關系嗎？</h1><p>這是我的問題？我朋友的問題？我家人的問題？自己工作上的問題？自己生活中的問題？</p><p>有兩個好處</p><ol><li>能夠更清楚知道解決方法是否有解決到問題</li><li>低潮時，問題還在，會驅使你持續去找出解法</li></ol><h1 id="小結"><a href="#小結" class="headerlink" title="小結"></a>小結</h1><p>我認為與其把點子記在小本本，倒不如把問題記在小本本 ( 甚至是身邊的人在抱怨的問題 )</p><h1 id="與朋友腦力激盪解法"><a href="#與朋友腦力激盪解法" class="headerlink" title="與朋友腦力激盪解法"></a>與朋友腦力激盪解法</h1><p>這是一個絕佳時機，找到共同創辦人</p><h1 id="為什麼你是這個問題解法最好的人選？"><a href="#為什麼你是這個問題解法最好的人選？" class="headerlink" title="為什麼你是這個問題解法最好的人選？"></a>為什麼你是這個問題解法最好的人選？</h1><p>( p.s. 噢，我曾經在 YC 面試被這題搞得很痛苦，爛命一條沒啥資格xD )</p><p>首先，你不需要一個傳統又堅強的履歷來證明你很有資格</p><p>而是<strong>有沒有什麼你對這個問題的理解，是別人不知道的</strong> ( 比如你甚至覺得台面上的解法都很糟，根本沒解決問題 )</p><h1 id="這時是一個很好的時機檢視整個市場中在解決這個問題的人"><a href="#這時是一個很好的時機檢視整個市場中在解決這個問題的人" class="headerlink" title="這時是一個很好的時機檢視整個市場中在解決這個問題的人"></a>這時是一個很好的時機檢視整個市場中在解決這個問題的人</h1><h1 id="MVP"><a href="#MVP" class="headerlink" title="MVP"></a>MVP</h1><p>完成上面的事項後，可以開始做 MVP 來嘗試解決這個問題</p><p><strong>絕對不要愛上你的 MVP</strong></p><p><strong>對，很高的機會你根本也不會解決這個問題，或解法很爛</strong> ( 這麼簡單大家都成功了是吧 ）</p><p><strong>MVP 是確認這個問題是可以被解決的，值得被解決的</strong><br><strong>MVP 是確認這個問題是可以被解決的，值得被解決的</strong><br><strong>MVP 是確認這個問題是可以被解決的，值得被解決的</strong></p><p><strong>有太多人愛上自己的 MVP 而不是愛上問題</strong></p><ol><li>愛上你的問題</li><li>愛上你的顧客</li><li>開放心態修改產品</li></ol><p>不要愛上產品的訣竅，就是<strong>快!!!</strong></p><h1 id="MVP-第一批用戶"><a href="#MVP-第一批用戶" class="headerlink" title="MVP 第一批用戶"></a>MVP 第一批用戶</h1><ol><li>建議手把手的找第一批用戶</li><li>強烈的自我意識到第一批用戶的屬性</li></ol><p>不要找的人</p><ol><li>不想嘗試新創產品</li><li>這個問題對他根本不重要</li></ol><p><strong>不要在乎有多少人有這個問題</strong></p><p><strong>專注在這個問題有沒有被解決</strong></p><p>所以頂級的新創，連續創業家，會非常非常小心翼翼的選擇第一批用戶</p><h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1><ol><li>找到問題</li><li>建立 MVP</li><li>取得回饋</li></ol><hr><p>我自己覺得，結論看起來很簡單，沒想到他細節很多關注上，跟我想的完全不一樣，比如不應該從 MVP 去思考市場規模，而應該持續專注在優化產品</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Y Combinatore 的 CEO Michael Seibel&lt;/p&gt;
-&lt;p&gt;我覺得他講得很有條理，雖然我們也沒照著這個路走xD&lt;/p&gt;
-&lt;p&gt;記一下不然會忘記&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>UVa 507 - Jill Rides Again</title>
@@ -390,6 +337,63 @@
     <category term="UVa" scheme="https://geniustanley.github.io/tags/UVa/"/>
     
     <category term="0-1Knapsack" scheme="https://geniustanley.github.io/tags/0-1Knapsack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UVa 11790 - Murcia&#39;s Skyline</title>
+    <link href="https://geniustanley.github.io/2017/03/25/UVa-11790-Murcia-s-Skyline/"/>
+    <id>https://geniustanley.github.io/2017/03/25/UVa-11790-Murcia-s-Skyline/</id>
+    <published>2017-03-25T09:36:51.000Z</published>
+    <updated>2020-10-13T06:48:10.695Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>O(N^2)</code> LIS</p><a id="more"></a><p><a href="https://uva.onlinejudge.org/external/117/11790.pdf">11790 - Murcia’s Skyline</a></p><h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>一開始想的太難了</p><p>由於 <code>LIS</code> 是要對寬度取最大，我用 <code>O(NlongL)</code> 的方法結果爆了</p><p>應該一開始就用爛一點但是好寫的 <code>O(N^2)</code> ( 大概 3 分鐘就可以寫完了 )，如果 <code>TLE</code> 再想其他辦法</p><h2 id="code"><a href="#code" class="headerlink" title="code"></a>code</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX 10005</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">int</span> T, N;</span><br><span class="line">  <span class="keyword">int</span> h[MAX], w[MAX], upper[MAX], lower[MAX];</span><br><span class="line">  <span class="keyword">int</span> increase, decrease;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;T);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> t = <span class="number">1</span>; t &lt;= T; t++) &#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;N);</span><br><span class="line"></span><br><span class="line">    increase = <span class="number">0</span>, decrease = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N; i++)</span><br><span class="line">      <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;h[i]);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N; i++)</span><br><span class="line">      <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;w[i]);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N; i++) &#123;</span><br><span class="line">      upper[i] = lower[i] = w[i];</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; i; j++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (h[j] &lt; h[i] &amp;&amp; upper[i] &lt; upper[j] + w[i]) &#123;</span><br><span class="line">          upper[i] = upper[j] + w[i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (h[j] &gt; h[i] &amp;&amp; lower[i] &lt; lower[j] + w[i]) &#123;</span><br><span class="line">          lower[i] = lower[j] + w[i];</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (upper[i] &gt; increase) increase = upper[i];</span><br><span class="line">      <span class="keyword">if</span> (lower[i] &gt; decrease) decrease = lower[i];</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (increase &gt;= decrease) &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;Case %d. Increasing (%d). Decreasing (%d).\n&quot;</span>, t, increase, decrease);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;Case %d. Decreasing (%d). Increasing (%d).\n&quot;</span>, t, decrease, increase);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>reference: <a href="http://blog.csdn.net/mobius_strip/article/details/40264311">小白菜又菜</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;code&gt;O(N^2)&lt;/code&gt; LIS&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="UVa" scheme="https://geniustanley.github.io/tags/UVa/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cPanel 上 addons domain 存在 public_html 外面</title>
+    <link href="https://geniustanley.github.io/2017/03/23/cPanel-%E4%B8%8A-addons-domain-%E5%AD%98%E5%9C%A8-public-html-%E5%A4%96%E9%9D%A2/"/>
+    <id>https://geniustanley.github.io/2017/03/23/cPanel-%E4%B8%8A-addons-domain-%E5%AD%98%E5%9C%A8-public-html-%E5%A4%96%E9%9D%A2/</id>
+    <published>2017-03-23T15:29:27.000Z</published>
+    <updated>2020-10-13T06:48:10.698Z</updated>
+    
+    <content type="html"><![CDATA[<p>架設多網域網站，把 <code>document root</code> 放在 <code>public_html</code> 外面的方法</p><a id="more"></a><p>由於客戶要增加一個新的網站在同一台 server 上</p><p>今天當我正要把買好的 domain 設定到 server</p><p>但是！！！</p><p>遇到一個問題</p><h2 id="只能把資料放在-public-html-底下"><a href="#只能把資料放在-public-html-底下" class="headerlink" title="只能把資料放在 public_html 底下"></a>只能把資料放在 <code>public_html</code> 底下</h2><p>本來我已經抱持著必死的決心要把原本這樣的架構</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public_html&#x2F;A.php</span><br><span class="line">public_html&#x2F;B.php</span><br><span class="line">public_html&#x2F;C.php</span><br><span class="line">public_html&#x2F;D.php</span><br><span class="line">public_html&#x2F;E.php</span><br></pre></td></tr></table></figure><p>改成</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">public_html&#x2F;網站1&#x2F;A.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;B.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;C.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;D.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;E.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;A.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;B.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;C.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;D.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;E.php</span><br></pre></td></tr></table></figure><p>這樣會搞亂原本放在那邊的網站，而且資料超多，還有資料庫啥的，一定會死</p><p>後來竟然被我查到一個神解</p><p><a href="https://kb.site5.com/domains/how-to-host-a-domain-outside-of-the-public_html-directory/">Domains: How to Host a Domain Outside of the public_html Directory</a></p><h2 id="最重要的就是在-public-html-底下放一個-symbolic-link-連到家目錄底下的乾淨資料夾"><a href="#最重要的就是在-public-html-底下放一個-symbolic-link-連到家目錄底下的乾淨資料夾" class="headerlink" title="最重要的就是在 public_html 底下放一個 symbolic link 連到家目錄底下的乾淨資料夾"></a>最重要的就是在 public_html 底下放一個 symbolic link 連到家目錄底下的乾淨資料夾</h2><p>因為客戶的 server 不支援 <code>ssh</code>，而且也沒辦法在 cpanel 裡面直接 <code>ln -s</code>，查了一下發現大家要設定 <code>symbolic link</code> 都是用 <code>cron job</code> = =</p><h2 id="步驟如下"><a href="#步驟如下" class="headerlink" title="步驟如下"></a>步驟如下</h2><ol><li>去附加網域設定新的網域連到 <code>public_html/網站名稱</code> <img src="https://i.imgur.com/D9SSHkM.png" alt="Imgur"></li><li><code>cron job</code> 設定 <code>symbolic link</code> ( 先設定每分鐘跑，設定生效再刪掉 <code>cron job</code> 即可 ) <img src="https://i.imgur.com/ccWr1ju.png" alt="Imgur"></li><li>好了，就這麼簡單 = =</li></ol><p>是說，<code>cron job</code> 的警告標語也太可愛了吧 <img src="https://i.imgur.com/gidFkRP.png" alt="Imgur"></p><h2 id="精通"><a href="#精通" class="headerlink" title="精通"></a><code>精通</code></h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;架設多網域網站，把 &lt;code&gt;document root&lt;/code&gt; 放在 &lt;code&gt;public_html&lt;/code&gt; 外面的方法&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="web" scheme="https://geniustanley.github.io/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UVa 11456 - Trainsorting</title>
+    <link href="https://geniustanley.github.io/2017/03/22/UVa-11456-Trainsorting/"/>
+    <id>https://geniustanley.github.io/2017/03/22/UVa-11456-Trainsorting/</id>
+    <published>2017-03-21T17:12:01.000Z</published>
+    <updated>2020-10-13T06:48:10.695Z</updated>
+    
+    <content type="html"><![CDATA[<p>LIS 變形</p><a id="more"></a><p><a href="https://uva.onlinejudge.org/external/114/11456.pdf">11456 - Trainsorting</a></p><h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>把 input 中的 <code>123</code> 拼成一個回文 <code>321 123</code></p><p>然後對 <code>321123</code> 求 <code>LIS</code></p><p>題目有說 <code>No two cars have the same weight</code> 所以不會有重疊的狀況</p><h2 id="code"><a href="#code" class="headerlink" title="code"></a>code</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> T, n, w;</span><br><span class="line">  <span class="keyword">int</span> train[<span class="number">4000</span>];</span><br><span class="line">  <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;T);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (!n) &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;0\n&quot;</span>);</span><br><span class="line">      <span class="keyword">continue</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; v;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">      <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;w);</span><br><span class="line">      train[n-i<span class="number">-1</span>] = train[n+i] = w;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    v.push_back(train[<span class="number">0</span>]);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; <span class="number">2</span>*n; i++) &#123;</span><br><span class="line">      <span class="keyword">if</span> (train[i] &gt; v.back()) &#123;</span><br><span class="line">        v.push_back(train[i]);</span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        *lower_bound(v.begin(), v.end(), train[i]) = train[i];</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, v.size());</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;LIS 變形&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="UVa" scheme="https://geniustanley.github.io/tags/UVa/"/>
     
   </entry>
   
