@@ -9,21 +9,14 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2022/01/10/2021-year-in-review/</loc>
-    
-    <lastmod>2022-01-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/04/14/%E8%80%83%E8%A9%A6%E5%85%AC%E5%B9%B3%E5%97%8E/</loc>
+    <loc>https://geniustanley.github.io/2017/04/07/%E9%96%89%E5%98%B4%E7%9A%84%E8%97%9D%E8%A1%93/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/03/20/javascript-%E9%81%8E%E6%BF%BE%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</loc>
+    <loc>https://geniustanley.github.io/2017/06/02/%E7%9C%9F%E4%BA%BA%E4%B8%8D%E9%9C%B2%E7%9B%B8%EF%BC%8C%E9%9C%B2%E7%9B%B8%E4%B8%8D%E7%9C%9F%E4%BA%BA/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -44,14 +37,14 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/04/07/%E9%96%89%E5%98%B4%E7%9A%84%E8%97%9D%E8%A1%93/</loc>
+    <loc>https://geniustanley.github.io/2017/03/20/javascript-%E9%81%8E%E6%BF%BE%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/06/02/%E7%9C%9F%E4%BA%BA%E4%B8%8D%E9%9C%B2%E7%9B%B8%EF%BC%8C%E9%9C%B2%E7%9B%B8%E4%B8%8D%E7%9C%9F%E4%BA%BA/</loc>
+    <loc>https://geniustanley.github.io/2017/04/14/%E8%80%83%E8%A9%A6%E5%85%AC%E5%B9%B3%E5%97%8E/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -149,14 +142,14 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/25/UVa-12192-Grapevine/</loc>
+    <loc>https://geniustanley.github.io/2017/02/22/UVa-193-Graph-Coloring/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/22/UVa-193-Graph-Coloring/</loc>
+    <loc>https://geniustanley.github.io/2017/02/12/UVa-12003-Array-Transformer/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -177,7 +170,7 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/12/UVa-12003-Array-Transformer/</loc>
+    <loc>https://geniustanley.github.io/2017/02/27/UVa-12032-The-Monkey-and-the-Oiled-Bamboo/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -191,6 +184,13 @@
   </url>
   
   <url>
+    <loc>https://geniustanley.github.io/2017/02/25/UVa-12192-Grapevine/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://geniustanley.github.io/2017/02/26/UVa-1262-Password/</loc>
     
     <lastmod>2020-10-13</lastmod>
@@ -198,21 +198,14 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/02/27/UVa-12032-The-Monkey-and-the-Oiled-Bamboo/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/12/09/UVa-11479-Is-this-the-easiest-problem/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://geniustanley.github.io/2017/02/27/UVa-11413-Fill-the-Containers/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/03/21/UVa-11951-Area/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -254,7 +247,14 @@
   </url>
   
   <url>
-    <loc>https://geniustanley.github.io/2017/03/21/UVa-11951-Area/</loc>
+    <loc>https://geniustanley.github.io/2017/12/09/UVa-11479-Is-this-the-easiest-problem/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geniustanley.github.io/2017/02/15/UVa-11236-Grocery-store/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -290,13 +290,6 @@
   
   <url>
     <loc>https://geniustanley.github.io/2017/02/27/UVa-11078-Open-Credit-System/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geniustanley.github.io/2017/02/15/UVa-11236-Grocery-store/</loc>
     
     <lastmod>2020-10-13</lastmod>
     

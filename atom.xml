@@ -38,27 +38,6 @@
   </entry>
   
   <entry>
-    <title>2021 year in review</title>
-    <link href="https://geniustanley.github.io/2022/01/10/2021-year-in-review/"/>
-    <id>https://geniustanley.github.io/2022/01/10/2021-year-in-review/</id>
-    <published>2022-01-10T08:36:45.000Z</published>
-    <updated>2022-01-10T08:55:31.388Z</updated>
-    
-    <content type="html"><![CDATA[<p>現在已經 2022 了，這幾年總是有種時間被急速壓縮的感覺，我決定趁著今年才剛過 10 天把 2021 的回顧寫完，這也是我第一次認真寫下年度回顧。</p><h1 id="2021-年度回顧-Firstory"><a href="#2021-年度回顧-Firstory" class="headerlink" title="2021 年度回顧(Firstory)"></a>2021 年度回顧(Firstory)</h1><h1 id="2021-年度回顧-個人"><a href="#2021-年度回顧-個人" class="headerlink" title="2021 年度回顧(個人)"></a>2021 年度回顧(個人)</h1><h1 id="2022-的計畫"><a href="#2022-的計畫" class="headerlink" title="2022 的計畫"></a>2022 的計畫</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;現在已經 2022 了，這幾年總是有種時間被急速壓縮的感覺，我決定趁著今年才剛過 10 天把 2021 的回顧寫完，這也是我第一次認真寫下年度回顧。&lt;/p&gt;
-&lt;h1 id=&quot;2021-年度回顧-Firstory&quot;&gt;&lt;a href=&quot;#2021-年度回顧-Firstory&quot; </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>UVa 507 - Jill Rides Again</title>
     <link href="https://geniustanley.github.io/2017/12/25/UVa-507-Jill-Rides-Again/"/>
     <id>https://geniustanley.github.io/2017/12/25/UVa-507-Jill-Rides-Again/</id>
@@ -398,6 +377,25 @@
     
     
     <category term="UVa" scheme="https://geniustanley.github.io/tags/UVa/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cPanel 上 addons domain 存在 public_html 外面</title>
+    <link href="https://geniustanley.github.io/2017/03/23/cPanel-%E4%B8%8A-addons-domain-%E5%AD%98%E5%9C%A8-public-html-%E5%A4%96%E9%9D%A2/"/>
+    <id>https://geniustanley.github.io/2017/03/23/cPanel-%E4%B8%8A-addons-domain-%E5%AD%98%E5%9C%A8-public-html-%E5%A4%96%E9%9D%A2/</id>
+    <published>2017-03-23T15:29:27.000Z</published>
+    <updated>2020-10-13T06:48:10.698Z</updated>
+    
+    <content type="html"><![CDATA[<p>架設多網域網站，把 <code>document root</code> 放在 <code>public_html</code> 外面的方法</p><a id="more"></a><p>由於客戶要增加一個新的網站在同一台 server 上</p><p>今天當我正要把買好的 domain 設定到 server</p><p>但是！！！</p><p>遇到一個問題</p><h2 id="只能把資料放在-public-html-底下"><a href="#只能把資料放在-public-html-底下" class="headerlink" title="只能把資料放在 public_html 底下"></a>只能把資料放在 <code>public_html</code> 底下</h2><p>本來我已經抱持著必死的決心要把原本這樣的架構</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public_html&#x2F;A.php</span><br><span class="line">public_html&#x2F;B.php</span><br><span class="line">public_html&#x2F;C.php</span><br><span class="line">public_html&#x2F;D.php</span><br><span class="line">public_html&#x2F;E.php</span><br></pre></td></tr></table></figure><p>改成</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">public_html&#x2F;網站1&#x2F;A.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;B.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;C.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;D.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;E.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;A.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;B.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;C.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;D.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;E.php</span><br></pre></td></tr></table></figure><p>這樣會搞亂原本放在那邊的網站，而且資料超多，還有資料庫啥的，一定會死</p><p>後來竟然被我查到一個神解</p><p><a href="https://kb.site5.com/domains/how-to-host-a-domain-outside-of-the-public_html-directory/">Domains: How to Host a Domain Outside of the public_html Directory</a></p><h2 id="最重要的就是在-public-html-底下放一個-symbolic-link-連到家目錄底下的乾淨資料夾"><a href="#最重要的就是在-public-html-底下放一個-symbolic-link-連到家目錄底下的乾淨資料夾" class="headerlink" title="最重要的就是在 public_html 底下放一個 symbolic link 連到家目錄底下的乾淨資料夾"></a>最重要的就是在 public_html 底下放一個 symbolic link 連到家目錄底下的乾淨資料夾</h2><p>因為客戶的 server 不支援 <code>ssh</code>，而且也沒辦法在 cpanel 裡面直接 <code>ln -s</code>，查了一下發現大家要設定 <code>symbolic link</code> 都是用 <code>cron job</code> = =</p><h2 id="步驟如下"><a href="#步驟如下" class="headerlink" title="步驟如下"></a>步驟如下</h2><ol><li>去附加網域設定新的網域連到 <code>public_html/網站名稱</code> <img src="https://i.imgur.com/D9SSHkM.png" alt="Imgur"></li><li><code>cron job</code> 設定 <code>symbolic link</code> ( 先設定每分鐘跑，設定生效再刪掉 <code>cron job</code> 即可 ) <img src="https://i.imgur.com/ccWr1ju.png" alt="Imgur"></li><li>好了，就這麼簡單 = =</li></ol><p>是說，<code>cron job</code> 的警告標語也太可愛了吧 <img src="https://i.imgur.com/gidFkRP.png" alt="Imgur"></p><h2 id="精通"><a href="#精通" class="headerlink" title="精通"></a><code>精通</code></h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;架設多網域網站，把 &lt;code&gt;document root&lt;/code&gt; 放在 &lt;code&gt;public_html&lt;/code&gt; 外面的方法&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="web" scheme="https://geniustanley.github.io/tags/web/"/>
     
   </entry>
   
