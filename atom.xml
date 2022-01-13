@@ -6,7 +6,7 @@
   <link href="https://geniustanley.github.io/atom.xml" rel="self"/>
   
   <link href="https://geniustanley.github.io/"/>
-  <updated>2020-10-13T06:48:10.697Z</updated>
+  <updated>2022-01-13T16:01:56.842Z</updated>
   <id>https://geniustanley.github.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>為什麼你可能不需要intercom？潛在的成本與替代方案</title>
+    <link href="https://geniustanley.github.io/2022/01/10/%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E5%8F%AF%E8%83%BD%E4%B8%8D%E9%9C%80%E8%A6%81intercom/"/>
+    <id>https://geniustanley.github.io/2022/01/10/%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E5%8F%AF%E8%83%BD%E4%B8%8D%E9%9C%80%E8%A6%81intercom/</id>
+    <published>2022-01-10T11:18:10.000Z</published>
+    <updated>2022-01-13T16:01:56.842Z</updated>
+    
+    <content type="html"><![CDATA[<p>這篇文章所描述的狀況是身在一間新創公司實際使用 intercom 兩年以上的心得，文中所描述的需求不一定適用於每一間公司。</p><p><a href="https://www.intercom.com/">Intercom</a> 中文翻譯是對講機，顧名思義是一款能夠與用戶即時交流的軟體，從官網的 slogan 可見 <strong>&quot;Customer communications platform”(客戶交流平台) 直觀一點可以想像成客服系統</strong>，想體驗可以直接進去 <a href="https://www.intercom.com/">intercom</a>  的官方網站，點選右下角的藍色圖案，可以透過聊天室進行客服互動、問卷調查、文章分享、系統廣播。</p><p>Intercom 是非常成功的 SaaS 公司，產品跟教學中心都做得很精緻。我從以前還在念大學的時候就很喜歡，直到後來真正在做產品時終於能實裝 intercom 來服務客戶，雖然真的超爽，才發現實際使用後會產生不小的未來成本，下方也會提供替代方案。</p><p>Intercom 的<a href="https://www.intercom.com/pricing?on_pageview_event=nav">功能列表</a><strong>非常</strong>複雜，<strong>價格很不透明，常常要與 sales 聯絡</strong>，多數第一次使用這類系統的人根本無從比較這中間的細節與定價，在使用了 intercom 幾年之後，我把重要的功能歸納成兩類。</p><h3 id="我們公司常用的功能"><a href="#我們公司常用的功能" class="headerlink" title="我們公司常用的功能"></a>我們公司常用的功能</h3><ul><li>Email 客服整合</li><li>Facebook 粉專客服整合 </li><li>多人協作，以利分配客服任務</li><li>自動回覆機器人</li><li>系統廣播新資訊</li><li>用戶行為分群</li><li>幫助中心</li><li>群發 email</li></ul><h3 id="我們少用，我看其他公司常用的功能"><a href="#我們少用，我看其他公司常用的功能" class="headerlink" title="我們少用，我看其他公司常用的功能"></a>我們少用，我看其他公司常用的功能</h3><ul><li>Onboarding Product Tour (第一次使用產品的指引)</li><li>Twitter 客服整合</li><li>A/B testing (這在產品裡面做就可以了，有 App 甚至用 Push Notification 來做更好)</li></ul><p>綜合以上，intercom 不只是一個單純對講機的客服系統，而是一個使用者管理平台，intercom 完整涵蓋了使用者在產品內的不同週期。</p><p>以使用者的體驗的角度來看:</p><p>初次使用指引 ➡️ 閱讀幫助中心 ➡️ 遇到問題客服 ➡️ 接受系統通知 ➡️ 收到最新消息 email ➡️ 基於不同分群收到特定消息</p><p>除了金流 &amp; 產品本身，使用者幾乎所有體驗都被 intercom 滿足了。</p><p>但是 intercom 在這一條龍式的強大功能背後有不低的未來成本，對於還在打造 MVP 甚至尋找 PMF 的新創公司來說是非常值得注意的，由於 intercom 第一年的的巨大優惠(0.5折)會讓許多新創公司覺得先上路再說，然而在 12 個月後就會開始產生每月固定不低的收費。</p><h3 id="初看之下，第一年很優惠的-intercom-early-stage-startup-方案"><a href="#初看之下，第一年很優惠的-intercom-early-stage-startup-方案" class="headerlink" title="初看之下，第一年很優惠的 intercom early-stage(startup) 方案"></a>初看之下，第一年很優惠的 intercom early-stage(startup) 方案</h3><p>Intercom 為了降低新創公司的採用門檻，提供 <a href="%5BImgur%5D(https://imgur.com/1G3w7F7)">Early-stage 方案</a>，其中最吸引人的就是巨大的折扣。</p><h3 id="Intercom-第一年的使用費-0-5-折！"><a href="#Intercom-第一年的使用費-0-5-折！" class="headerlink" title="Intercom 第一年的使用費 0.5 折！"></a>Intercom 第一年的使用費 0.5 折！</h3><p>對，就是 0.5 折，$100 變 $5，這個方案很有誠意，非常吸引人。</p><p>下圖可以看見 <strong>5,000+ 的新創公司</strong> &amp; <strong>84% Y Combinator</strong> 的新創公司都曾經採用這個方案，看到這樣黃金的數據，還能不用嗎！<br><img src="https://i.imgur.com/FXQfxlE.png" alt="img"></p><h3 id="Early-stage-的超低門檻"><a href="#Early-stage-的超低門檻" class="headerlink" title="Early-stage 的超低門檻"></a>Early-stage 的超低門檻</h3><p>下圖是我們第一個月的帳單，計費日期從 2020/07/26 - 2020/08/26</p><p><img src="https://i.imgur.com/1G3w7F7.png" alt="Imgur"></p><p>原價 $798(USD)，折扣後變成 $55.86，台幣不到 2000 塊，整整一年都打到骨折，光看這個帳單是非常令人心動的。</p><p>值得注意的是，early-stage 的內容是固定的，裡面的方案與功能<strong>無法</strong> 修改，其中涵蓋了以下兩個項目</p><ul><li>Accelerate plan</li><li>Product Tours</li></ul><p>Accelerate plan 是 intercom 高等級的方案，用起來特別開心。</p><p><img src="https://i.imgur.com/dxxlSCj.png" alt="Imgur"></p><h3 id="此時的美好規劃"><a href="#此時的美好規劃" class="headerlink" title="此時的美好規劃"></a>此時的美好規劃</h3><p>原本我的規劃是，先跑完一年的 Early-stage 方案，這個方案裡面有貴鬆鬆原價 $499 的 Accelerate Plan + 我們沒在用的 Product Tours，這一年每個月繳錢約為 $55~60，一年後，我們再換成 Grow 方案，把每個月的價格壓在 $119 ~ $150 (根據用量會加一些錢)</p><h3 id="其實-intercom-根本沒打算讓你回去-Start-or-Grow-了"><a href="#其實-intercom-根本沒打算讓你回去-Start-or-Grow-了" class="headerlink" title="其實 intercom 根本沒打算讓你回去 Start or Grow 了"></a>其實 intercom 根本沒打算讓你回去 Start or Grow 了</h3><p>以下幾個重要功能在 Start &amp; Grow 裡面都沒有，所以在 early-stage 結束後，幾乎不可能回去用便宜的方案，基本上就是被綁著直接衝 Accelerate plan 了，這幾個細節在使用 intercom 初期幾乎無從發現。</p><ul><li>無法有多語言的 help center</li><li>無法自動化串接 facebook</li><li>team seats 嚴重受限</li></ul><p>所以當 early-stage 結束後，即將面臨的就是從每月 $50<del>$60 上升到 $499</del>$800 (根據active contact 用量加錢，通常一年後用量一定會爆)</p><h3 id="Intercom-的替代方案"><a href="#Intercom-的替代方案" class="headerlink" title="Intercom 的替代方案"></a>Intercom 的替代方案</h3><p>搜尋以下關鍵字 “intercom alternative”, “live chat software” 之後就會看到成山成堆類似 intercom 的軟體，可能要比較好幾個晚上才能比完，我基於以下標準選了幾間我覺得最適合替代 intercom 的同類型軟體</p><ul><li>試過 code 好接</li><li>穩定</li><li>我看到其他公司用的很好</li><li>價格穩定，沒有很複雜的計價方式</li><li>符合我在 intercom 所有用到的功能</li></ul><p>以下兩間我認為是最值得一用的</p><ul><li><a href="https://crisp.chat/">Crisp Chat</a></li><li><a href="https://www.tawk.to/">Tawk</a></li></ul><h3 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h3><p>其實網路上很多文章，甚至在 Reddit 都在詬病 intercom 太昂貴以及混亂的方案跟定價策略，也可以發現 intercom 的市佔率其實不到 10%，願意花時間的話，蠻多別的選擇的。(不過嘗試的時間其實很貴)</p><p>但換個方式想，這間公司真的有本事把品牌擦亮，一些簡單的 API 串接，我們都知道伺服器沒幾個錢，但是人家就是有辦法用 usage-base 的定價來每個月收幾百幾千美金，真的是蠻屌的，而且他們做了一坨拉庫的 <a href="https://www.intercom.com/blog/podcasts/">podcast</a>, <a href="https://www.youtube.com/channel/UCJG0MvLP03kyzzAkD-w98aQ">youtube</a> ，甚至還有 <a href="https://academy.intercom.com/">academy</a>，這間公司不僅僅提供 features，而是真的在協助客戶成功。</p><p>然而對新創公司來說，這些錢有更多用途，拿去買 Mixpanel or Amplitude，甚至拿去灌 SEO 的文章數量我都覺得效益高一些。新創公司可以花錢買效率、花錢買時間，但是在這題，用大約 1/10 的錢就可以產生一樣的效益就應該把 9/10 的錢省下來。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;這篇文章所描述的狀況是身在一間新創公司實際使用 intercom 兩年以上的心得，文中所描述的需求不一定適用於每一間公司。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.intercom.com/&quot;&gt;Intercom&lt;/a&gt; 中文翻譯是對講機，顧名思義是一款能夠與</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2021 year in review</title>
+    <link href="https://geniustanley.github.io/2022/01/10/2021-year-in-review/"/>
+    <id>https://geniustanley.github.io/2022/01/10/2021-year-in-review/</id>
+    <published>2022-01-10T08:36:45.000Z</published>
+    <updated>2022-01-10T08:55:31.388Z</updated>
+    
+    <content type="html"><![CDATA[<p>現在已經 2022 了，這幾年總是有種時間被急速壓縮的感覺，我決定趁著今年才剛過 10 天把 2021 的回顧寫完，這也是我第一次認真寫下年度回顧。</p><h1 id="2021-年度回顧-Firstory"><a href="#2021-年度回顧-Firstory" class="headerlink" title="2021 年度回顧(Firstory)"></a>2021 年度回顧(Firstory)</h1><h1 id="2021-年度回顧-個人"><a href="#2021-年度回顧-個人" class="headerlink" title="2021 年度回顧(個人)"></a>2021 年度回顧(個人)</h1><h1 id="2022-的計畫"><a href="#2022-的計畫" class="headerlink" title="2022 的計畫"></a>2022 的計畫</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;現在已經 2022 了，這幾年總是有種時間被急速壓縮的感覺，我決定趁著今年才剛過 10 天把 2021 的回顧寫完，這也是我第一次認真寫下年度回顧。&lt;/p&gt;
+&lt;h1 id=&quot;2021-年度回顧-Firstory&quot;&gt;&lt;a href=&quot;#2021-年度回顧-Firstory&quot; </summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>UVa 507 - Jill Rides Again</title>
@@ -351,44 +393,6 @@
     
     
     <summary type="html">&lt;p&gt;&lt;code&gt;O(N^2)&lt;/code&gt; LIS&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="UVa" scheme="https://geniustanley.github.io/tags/UVa/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cPanel 上 addons domain 存在 public_html 外面</title>
-    <link href="https://geniustanley.github.io/2017/03/23/cPanel-%E4%B8%8A-addons-domain-%E5%AD%98%E5%9C%A8-public-html-%E5%A4%96%E9%9D%A2/"/>
-    <id>https://geniustanley.github.io/2017/03/23/cPanel-%E4%B8%8A-addons-domain-%E5%AD%98%E5%9C%A8-public-html-%E5%A4%96%E9%9D%A2/</id>
-    <published>2017-03-23T15:29:27.000Z</published>
-    <updated>2020-10-13T06:48:10.698Z</updated>
-    
-    <content type="html"><![CDATA[<p>架設多網域網站，把 <code>document root</code> 放在 <code>public_html</code> 外面的方法</p><a id="more"></a><p>由於客戶要增加一個新的網站在同一台 server 上</p><p>今天當我正要把買好的 domain 設定到 server</p><p>但是！！！</p><p>遇到一個問題</p><h2 id="只能把資料放在-public-html-底下"><a href="#只能把資料放在-public-html-底下" class="headerlink" title="只能把資料放在 public_html 底下"></a>只能把資料放在 <code>public_html</code> 底下</h2><p>本來我已經抱持著必死的決心要把原本這樣的架構</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public_html&#x2F;A.php</span><br><span class="line">public_html&#x2F;B.php</span><br><span class="line">public_html&#x2F;C.php</span><br><span class="line">public_html&#x2F;D.php</span><br><span class="line">public_html&#x2F;E.php</span><br></pre></td></tr></table></figure><p>改成</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">public_html&#x2F;網站1&#x2F;A.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;B.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;C.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;D.php</span><br><span class="line">public_html&#x2F;網站1&#x2F;E.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;A.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;B.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;C.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;D.php</span><br><span class="line">public_html&#x2F;網站2&#x2F;E.php</span><br></pre></td></tr></table></figure><p>這樣會搞亂原本放在那邊的網站，而且資料超多，還有資料庫啥的，一定會死</p><p>後來竟然被我查到一個神解</p><p><a href="https://kb.site5.com/domains/how-to-host-a-domain-outside-of-the-public_html-directory/">Domains: How to Host a Domain Outside of the public_html Directory</a></p><h2 id="最重要的就是在-public-html-底下放一個-symbolic-link-連到家目錄底下的乾淨資料夾"><a href="#最重要的就是在-public-html-底下放一個-symbolic-link-連到家目錄底下的乾淨資料夾" class="headerlink" title="最重要的就是在 public_html 底下放一個 symbolic link 連到家目錄底下的乾淨資料夾"></a>最重要的就是在 public_html 底下放一個 symbolic link 連到家目錄底下的乾淨資料夾</h2><p>因為客戶的 server 不支援 <code>ssh</code>，而且也沒辦法在 cpanel 裡面直接 <code>ln -s</code>，查了一下發現大家要設定 <code>symbolic link</code> 都是用 <code>cron job</code> = =</p><h2 id="步驟如下"><a href="#步驟如下" class="headerlink" title="步驟如下"></a>步驟如下</h2><ol><li>去附加網域設定新的網域連到 <code>public_html/網站名稱</code> <img src="https://i.imgur.com/D9SSHkM.png" alt="Imgur"></li><li><code>cron job</code> 設定 <code>symbolic link</code> ( 先設定每分鐘跑，設定生效再刪掉 <code>cron job</code> 即可 ) <img src="https://i.imgur.com/ccWr1ju.png" alt="Imgur"></li><li>好了，就這麼簡單 = =</li></ol><p>是說，<code>cron job</code> 的警告標語也太可愛了吧 <img src="https://i.imgur.com/gidFkRP.png" alt="Imgur"></p><h2 id="精通"><a href="#精通" class="headerlink" title="精通"></a><code>精通</code></h2>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;架設多網域網站，把 &lt;code&gt;document root&lt;/code&gt; 放在 &lt;code&gt;public_html&lt;/code&gt; 外面的方法&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="web" scheme="https://geniustanley.github.io/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>UVa 11456 - Trainsorting</title>
-    <link href="https://geniustanley.github.io/2017/03/22/UVa-11456-Trainsorting/"/>
-    <id>https://geniustanley.github.io/2017/03/22/UVa-11456-Trainsorting/</id>
-    <published>2017-03-21T17:12:01.000Z</published>
-    <updated>2020-10-13T06:48:10.695Z</updated>
-    
-    <content type="html"><![CDATA[<p>LIS 變形</p><a id="more"></a><p><a href="https://uva.onlinejudge.org/external/114/11456.pdf">11456 - Trainsorting</a></p><h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>把 input 中的 <code>123</code> 拼成一個回文 <code>321 123</code></p><p>然後對 <code>321123</code> 求 <code>LIS</code></p><p>題目有說 <code>No two cars have the same weight</code> 所以不會有重疊的狀況</p><h2 id="code"><a href="#code" class="headerlink" title="code"></a>code</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> T, n, w;</span><br><span class="line">  <span class="keyword">int</span> train[<span class="number">4000</span>];</span><br><span class="line">  <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;T);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (!n) &#123;</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;0\n&quot;</span>);</span><br><span class="line">      <span class="keyword">continue</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; v;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">      <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;w);</span><br><span class="line">      train[n-i<span class="number">-1</span>] = train[n+i] = w;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    v.push_back(train[<span class="number">0</span>]);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; <span class="number">2</span>*n; i++) &#123;</span><br><span class="line">      <span class="keyword">if</span> (train[i] &gt; v.back()) &#123;</span><br><span class="line">        v.push_back(train[i]);</span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        *lower_bound(v.begin(), v.end(), train[i]) = train[i];</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, v.size());</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;LIS 變形&lt;/p&gt;</summary>
     
     
     
